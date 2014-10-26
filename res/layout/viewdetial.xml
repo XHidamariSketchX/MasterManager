@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <TextView
+  android:id="@+id/viewdetial_txtv_detail"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text=""
+  android:lines="3">
+  </TextView>
+<ScrollView
+	android:id="@+id/scol"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<EditText
+		android:id="@+id/viewdetail_edt_description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:maxLines="3"
+		android:minLines="3">
+		</EditText>
+</ScrollView>
+	<CheckBox 
+	android:id="@+id/viewdetail_chb_solved" 
+	android:text="已解决" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	</CheckBox>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<Button
+  	android:id="@+id/viewdetail_btn_modify"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="修改">
+  	</Button>
+  	<Button
+  	android:id="@+id/viewdetail_btn_back"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="返回">
+  	</Button>
+  </LinearLayout>
+</LinearLayout>

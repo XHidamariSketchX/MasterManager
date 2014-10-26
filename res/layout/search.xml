@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<TextView
+    android:id="@+id/search_txt_type"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="选择类型">
+	</TextView>
+	<Spinner
+	android:id="@+id/search_spn_type"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	</Spinner>
+  </LinearLayout>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<TextView
+    android:id="@+id/search_txt_subject"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="选择科目">
+	</TextView>
+	<Spinner
+	android:id="@+id/search_spn_subject"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	</Spinner>
+  </LinearLayout>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<TextView
+    android:id="@+id/search_txt_bookname"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="选择书本">
+	</TextView>
+	<Spinner
+	android:id="@+id/search_spn_bookname"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	</Spinner>
+  </LinearLayout>
+	
+<LinearLayout
+	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+	<EditText
+	android:id="@+id/search_edt_page"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1">
+	</EditText>
+	
+	<EditText
+	android:id="@+id/search_edt_ordernum"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1">
+	</EditText>
+</LinearLayout>
+<EditText
+android:id="@+id/search_edt_description"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+</EditText>
+<CheckBox 
+	android:text="已解决" 
+	android:id="@+id/search_chb_solved" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</CheckBox>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<Button
+  	android:id="@+id/search_btn_search"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="查找">
+  	</Button>
+  	<Button
+  	android:id="@+id/search_btn_cancel"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="取消">
+  	</Button>
+  </LinearLayout>
+</LinearLayout>

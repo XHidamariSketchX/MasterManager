@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="vertical">
+  	<TextView
+  	
+  	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="选择科目">
+	</TextView>
+	<Spinner
+	android:id="@+id/addbook_spn_subject"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	</Spinner>
+  <EditText
+  	android:id="@+id/addbook_edt_bookname"
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_marginTop="20px">
+  </EditText>
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  	<Button
+  	android:id="@+id/addbook_btn_save"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="保存"
+  	>
+  	</Button>
+  	<Button
+  	android:id="@+id/addbook_btn_cancel"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"
+  	android:text="取消">
+  	</Button>
+  </LinearLayout>
+</LinearLayout>
